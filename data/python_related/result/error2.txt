@@ -1,0 +1,92 @@
+  
+      def encode(self, X1, X2):
+        # =============================================================================
+        # first hidden layer composed of two parts related to two sources (X1, X2)
+        # - build a fully connected layer
+        # - apply the batch normalization
+        # - apply an activation function
+        # =============================================================================
+        l1 = tf.keras.layers.Dense(self.n_hidden1, kernel_initializer=self._init, name='layer1')(X1)
+
+        l1 = tf.keras.layers.BatchNormalization()(l1, training=bool(self.is_train))
+        l1 = self.activation(l1)
+        self.n_layer1 = l1.shape
+        print("layer1 shape", l1.shape)
+
+        l2 = tf.keras.layers.Dense(self.n_hidden2, kernel_initializer=self._init, name='layer2')(X2)
+        l2 = tf.keras.layers.BatchNormalization()(l2, training=bool(self.is_train))
+        l2 = self.activation(l2)
+        self.n_layer2 = l2.shape
+        print("layer2 shape", l2.shape)
+        # =============================================================================
+        # fuse the parts of the first hidden layer
+        # =============================================================================
+        l3 = tf.keras.layers.Dense(self.n_hiddensh, kernel_initializer=self._init, name='layer3')(tf.concat([l1, l2], 1))
+        #l1,l2 are bounded in l
+        print("-----layer3 shape", l3.shape)
+        l3 = tf.keras.layers.BatchNormalization()(l3, training=bool(self.is_train))
+        self.n_layer3 = l3.shape
+        print("layer3 shape", l3.shape)
+        return l3
+
+    def decode(self, H):
+        l4 = tf.keras.layers.Dense(self.n_hidden1 + self.n_hidden2, kernel_initializer=self._init, name='layer4')(H)
+        l4 = tf.keras.layers.BatchNormalization()(l4, training=bool(self.is_train))
+        self.n_layer4 = l4.shape
+        print("layer4 shape", l4.shape)
+        s1, s2 = tf.split(l4, [self.n_hidden1, self.n_hidden2], 1)
+
+        l5 = tf.keras.layers.Dense(self.n_input1, kernel_initializer=self._init, name='layer5')(s1)
+        l5 = tf.keras.layers.BatchNormalization()(l5, training=bool(self.is_train))
+        l5 = self.activation(l5)#l1
+        self.n_layer5 = l5.shape
+        print("layer5 shape", l5.shape)
+        l6 = tf.keras.layers.Dense(self.n_input2, kernel_initializer=self._init, name='layer6')(s2)
+        l6 = tf.keras.layers.BatchNormalization()(l6, training=bool(self.is_train))
+        l6 = self.activation(l6)#l2
+        self.n_layer6 = l6.shape
+        print("layer6 shape", l6.shape)
+        return l5, l6
+  
+  
+  def get_weights(self):
+        self.W1 = tf.Variable(initial_value=tf.keras.initializers.GlorotNormal()(shape=self.n_layer1), trainable=True,
+                              name="layer1/kernel")
+        self.W2 = tf.Variable(initial_value=tf.keras.initializers.GlorotNormal()(shape=self.n_layer2), trainable=True,
+                              name="layer2/kernel")
+        self.Wsh = tf.Variable(initial_value=tf.keras.initializers.GlorotNormal()(shape=self.n_layer3), trainable=True,
+                               name="layer3/kernel")
+        self.Wsht = tf.Variable(initial_value=tf.keras.initializers.GlorotNormal()(shape=self.n_layer4), trainable=True,
+                                name="layer4/kernel")
+        self.W1t = tf.Variable(initial_value=tf.keras.initializers.GlorotNormal()(shape=self.n_layer5), trainable=True,
+                               name="layer5/kernel")
+        self.W2t = tf.Variable(initial_value=tf.keras.initializers.GlorotNormal()(shape=self.n_layer6), trainable=True,
+                               name="layer6/kernel")
+
+    def L1regularization(self, weights):
+        return tf.reduce_sum(tf.abs(weights))
+
+    def L2regularization(self, weights, nbunits):
+        return math.sqrt(nbunits) * tf.nn.l2_loss(weights)
+
+    def loss(self, X1, X2):
+
+        self.H = self.encode(X1, X2)
+        X1_, X2_ = self.decode(self.H)
+        self.get_weights()
+
+        # sparse group lasso
+        sgroup_lasso = self.L2regularization(self.W1, self.n_input1 * self.n_hidden1) + \
+                       self.L2regularization(self.W2, self.n_input2 * self.n_hidden2)
+
+        # lasso
+        lasso = self.L1regularization(self.W1) + self.L1regularization(self.W2) + \
+                self.L1regularization(self.Wsh) + self.L1regularization(self.Wsht) + \
+                self.L1regularization(self.W1t) + self.L1regularization(self.W2t)
+
+        # reconstruction Error
+        error = tf.losses.mean_squared_error(X1, X1_) + tf.losses.mean_squared_error(X2, X2_)
+
+        # Loss function
+        cost = 0.5 * error + 0.5 * self.lamda * (1 - self.alpha) * sgroup_lasso + 0.5 * self.lamda * self.alpha * lasso
+        return cost

@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct node {
+    int value;
+    struct node *next;
+};
+
+int main() {
+    // 创建并初始化五个节点
+    struct node *head = malloc(sizeof(struct node));
+    struct node *second = malloc(sizeof(struct node));
+    struct node *third = malloc(sizeof(struct node));
+    struct node *fourth = malloc(sizeof(struct node));
+    struct node *fifth = malloc(sizeof(struct node));
+
+    // 检查内存分配是否成功
+    if (!head || !second || !third || !fourth || !fifth) {
+        printf("Memory allocation failed\n");
+        // 适当地释放已分配的内存
+        free(head);
+        free(second);
+        free(third);
+        free(fourth);
+        free(fifth);
+        return 1;
+    }
+
+    // 初始化节点并链接它们
+    head->value = 1; head->next = second;
+    second->value = 2; second->next = third;
+    third->value = 3; third->next = fourth;
+    fourth->value = 4; fourth->next = fifth;
+    fifth->value = 5; fifth->next = NULL;
+
+    // 遍历链表找到第三个节点
+    struct node *current = head;
+    int count = 0;
+    while (current != NULL) {
+        count++;
+        if (count == 3) {
+            printf("Third node found with value: %d\n", current->value);
+            break;
+        }
+        current = current->next;
+    }
+
+    // 释放分配的内存
+    free(head);
+    free(second);
+    free(third);
+    free(fourth);
+    free(fifth);
+
+    return 0;
+}

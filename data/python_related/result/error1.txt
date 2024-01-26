@@ -1,0 +1,118 @@
+C:\Apps\Python\python.exe C:\Users\gklizh\Documents\Workspace\code_and_data\code\autoencoder.py 
+(463, 4983)
+(463, 4983)
+iteration 0
+first source ...
+second source ...
+features size of the 1st dataset: 301
+features size of the 2nd dataset: 301
+shape of n_hidden1  301
+shape of n_hidden2  301
+shape of n_hiddensh 1
+--------------------- (370, 301) (370, 301) (93, 301) (93, 301) -------------------
+self.batch_size
+8
+data shape is 
+2023-12-22 15:43:17.367150: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+(370, 602)
+train_index
+(296,)
+val_index
+(74,)
+self.training_batch_size
+8
+self data1 size shape
+301
+self data2 size shape
+301
+ loss real X1
+<tf.Variable 'Variable:0' shape=(8, 301) dtype=float32, numpy=
+array([[0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       ...,
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.]], dtype=float32)>
+ loss real X2
+<tf.Variable 'Variable:0' shape=(8, 301) dtype=float32, numpy=
+array([[0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       ...,
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.]], dtype=float32)>
+layer1 shape
+(8, 256)
+layer2 shape
+(8, 174)
+-----layer3 shape
+(8, 1)
+layer3 shape
+(8, 1)
+layer4 shape
+(8, 430)
+layer5 shape
+(8, 301)
+layer6 shape
+(8, 301)
+loss self.X1
+(8, 301)
+loss self.X2
+(8, 301)
+-------------------Good0-------------------------------
+The value of loss is :
+tf.Tensor([4.761907 4.761907 4.761907 4.761907 4.761907 4.761907 4.761907 4.761907], shape=(8,), dtype=float32)
+-------------------Good0 end-------------------------------
+  0%|          | 0/20 [00:00<?, ?trial/s, best loss=?]
+job exception: `tape` is required when a `Tensor` loss is passed. Received: loss=[4.761907 4.761907 4.761907 4.761907 4.761907 4.761907 4.761907 4.761907], tape=None.
+
+Traceback (most recent call last):
+  File "C:\Users\gklizh\Documents\Workspace\code_and_data\code\autoencoder.py", line 538, in <module>
+    best = fmin(sae.cross_validation, space, algo=tpe.suggest, max_evals=20, trials=trials)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gklizh\AppData\Roaming\Python\Python311\site-packages\hyperopt\fmin.py", line 540, in fmin
+    return trials.fmin(
+           ^^^^^^^^^^^^
+  File "C:\Users\gklizh\AppData\Roaming\Python\Python311\site-packages\hyperopt\base.py", line 671, in fmin
+    return fmin(
+           ^^^^^
+  File "C:\Users\gklizh\AppData\Roaming\Python\Python311\site-packages\hyperopt\fmin.py", line 586, in fmin
+    rval.exhaust()
+  File "C:\Users\gklizh\AppData\Roaming\Python\Python311\site-packages\hyperopt\fmin.py", line 364, in exhaust
+    self.run(self.max_evals - n_done, block_until_done=self.asynchronous)
+  File "C:\Users\gklizh\AppData\Roaming\Python\Python311\site-packages\hyperopt\fmin.py", line 300, in run
+    self.serial_evaluate()
+  File "C:\Users\gklizh\AppData\Roaming\Python\Python311\site-packages\hyperopt\fmin.py", line 178, in serial_evaluate
+    result = self.domain.evaluate(spec, ctrl)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gklizh\AppData\Roaming\Python\Python311\site-packages\hyperopt\base.py", line 892, in evaluate
+    rval = self.fn(pyll_rval)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gklizh\Documents\Workspace\code_and_data\code\autoencoder.py", line 325, in cross_validation
+    self.train_step = tf.keras.optimizers.SGD(self.learning_rate).minimize(self.loss_,
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Apps\Python\Lib\site-packages\keras\src\optimizers\optimizer.py", line 543, in minimize
+    grads_and_vars = self.compute_gradients(loss, var_list, tape)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Apps\Python\Lib\site-packages\keras\src\optimizers\optimizer.py", line 262, in compute_gradients
+    raise ValueError(
+ValueError: `tape` is required when a `Tensor` loss is passed. Received: loss=[4.761907 4.761907 4.761907 4.761907 4.761907 4.761907 4.761907 4.761907], tape=None.
+
+Process finished with exit code 1
+
+
+        self.W1 = tf.Variable(initial_value=tf.keras.initializers.GlorotNormal()(shape=self.n_layer1), trainable=True,
+                              name="layer1/kernel")
+        self.W2 = tf.Variable(initial_value=tf.keras.initializers.GlorotNormal()(shape=self.n_layer2), trainable=True,
+                              name="layer2/kernel")
+        self.Wsh = tf.Variable(initial_value=tf.keras.initializers.GlorotNormal()(shape=self.n_layer3), trainable=True,
+                               name="layer3/kernel")
+        self.Wsht = tf.Variable(initial_value=tf.keras.initializers.GlorotNormal()(shape=self.n_layer4), trainable=True,
+                                name="layer4/kernel")
+        self.W1t = tf.Variable(initial_value=tf.keras.initializers.GlorotNormal()(shape=self.n_layer5), trainable=True,
+                               name="layer5/kernel")
+        self.W2t = tf.Variable(initial_value=tf.keras.initializers.GlorotNormal()(shape=self.n_layer6), trainable=True,
+                               name="layer6/kernel")

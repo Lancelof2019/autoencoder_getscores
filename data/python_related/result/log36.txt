@@ -1,0 +1,239 @@
+C:\Apps\Python\python.exe C:\Users\gklizh\Documents\Workspace\code_and_data\code\getScoresSKCM.py 
+1.24.4
+(463, 4983)
+(463, 4983)
+-------------------------------------------------------------------------------
+iteration 0
+first source ...
+second source ...
+features size of the 1st dataset: 301
+The data type of data1 is  <class 'int'>
+features size of the 2nd dataset: 301
+The data type of data2 is  301
+2024-01-15 12:33:36.315023: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+H.layer1: 107 , H.layer1: 20
+k 5 lamda 0 , batch_size: 8 , alpha: 0 , learning_rate: 0.06043070150913025
+initializer:  xavier , optimizer: Momentum
+-------------------------------------------------------------------------------
+iteration 1
+first source ...
+second source ...
+features size of the 1st dataset: 191
+The data type of data1 is  <class 'int'>
+features size of the 2nd dataset: 191
+The data type of data2 is  191
+H.layer1: 60 , H.layer1: 152
+k 5 lamda 0.04246159668634084 , batch_size: 16 , alpha: 0.9805322329815893 , learning_rate: 0.010851561236558427
+initializer:  xavier , optimizer: Momentum
+-------------------------------------------------------------------------------
+iteration 2
+first source ...
+second source ...
+features size of the 1st dataset: 341
+The data type of data1 is  <class 'int'>
+features size of the 2nd dataset: 341
+The data type of data2 is  341
+H.layer1: 214 , H.layer1: 239
+k 5 lamda 0 , batch_size: 4 , alpha: 0.6593843660562225 , learning_rate: 0.014900710057609238
+initializer:  xavier , optimizer: nadam
+-------------------------------------------------------------------------------
+iteration 3
+first source ...
+second source ...
+features size of the 1st dataset: 161
+The data type of data1 is  <class 'int'>
+features size of the 2nd dataset: 161
+The data type of data2 is  161
+H.layer1: 158 , H.layer1: 148
+k 5 lamda 0 , batch_size: 8 , alpha: 0.865634385841659 , learning_rate: 0.007964648098601208
+initializer:  xavier , optimizer: RMSProp
+-------------------------------------------------------------------------------
+iteration 4
+first source ...
+second source ...
+features size of the 1st dataset: 211
+The data type of data1 is  <class 'int'>
+features size of the 2nd dataset: 211
+The data type of data2 is  211
+H.layer1: 6 , H.layer1: 129
+k 5 lamda 0 , batch_size: 4 , alpha: 0.9454263179836891 , learning_rate: 0.24278365407226826
+initializer:  xavier , optimizer: nadam
+-------------------------------------------------------------------------------
+iteration 5
+first source ...
+second source ...
+features size of the 1st dataset: 152
+The data type of data1 is  <class 'int'>
+features size of the 2nd dataset: 152
+The data type of data2 is  152
+H.layer1: 118 , H.layer1: 83
+k 5 lamda 0 , batch_size: 16 , alpha: 0.9188851199603646 , learning_rate: 0.31551045529005056
+initializer:  xavier , optimizer: SGD
+-------------------------------------------------------------------------------
+iteration 6
+first source ...
+second source ...
+features size of the 1st dataset: 560
+The data type of data1 is  <class 'int'>
+features size of the 2nd dataset: 560
+The data type of data2 is  560
+H.layer1: 483 , H.layer1: 67
+k 5 lamda 0 , batch_size: 8 , alpha: 0 , learning_rate: 0.032194718830846944
+initializer:  xavier , optimizer: nadam
+-------------------------------------------------------------------------------
+iteration 7
+first source ...
+second source ...
+features size of the 1st dataset: 247
+The data type of data1 is  <class 'int'>
+features size of the 2nd dataset: 247
+The data type of data2 is  247
+H.layer1: 69 , H.layer1: 140
+k 5 lamda 0 , batch_size: 16 , alpha: 0 , learning_rate: 0.13970738311400183
+initializer:  xavier , optimizer: RMSProp
+-------------------------------------------------------------------------------
+iteration 8
+first source ...
+second source ...
+features size of the 1st dataset: 143
+The data type of data1 is  <class 'int'>
+features size of the 2nd dataset: 143
+The data type of data2 is  143
+H.layer1: 93 , H.layer1: 36
+k 5 lamda 0 , batch_size: 16 , alpha: 0.010731830305573231 , learning_rate: 0.007316447442475933
+initializer:  xavier , optimizer: SGD
+-------------------------------------------------------------------------------
+iteration 9
+first source ...
+second source ...
+features size of the 1st dataset: 557
+The data type of data1 is  <class 'int'>
+features size of the 2nd dataset: 557
+The data type of data2 is  557
+H.layer1: 60 , H.layer1: 201
+k 5 lamda 0 , batch_size: 16 , alpha: 0 , learning_rate: 0.0572814909776959
+initializer:  xavier , optimizer: RMSProp
+-------------------------------------------------------------------------------
+iteration 10
+first source ...
+second source ...
+features size of the 1st dataset: 235
+The data type of data1 is  <class 'int'>
+features size of the 2nd dataset: 235
+The data type of data2 is  235
+H.layer1: 155 , H.layer1: 80
+k 5 lamda 0 , batch_size: 16 , alpha: 0 , learning_rate: 0.04587973501412998
+initializer:  xavier , optimizer: adam
+-------------------------------------------------------------------------------
+iteration 11
+first source ...
+second source ...
+features size of the 1st dataset: 6
+The data type of data1 is  <class 'int'>
+features size of the 2nd dataset: 6
+The data type of data2 is  6
+H.layer1: 2 , H.layer1: 5
+k 5 lamda 0 , batch_size: 16 , alpha: 0.6291590341824794 , learning_rate: 0.007681836168876316
+initializer:  xavier , optimizer: adam
+-------------------------------------------------------------------------------
+iteration 12
+first source ...
+second source ...
+features size of the 1st dataset: 161
+The data type of data1 is  <class 'int'>
+features size of the 2nd dataset: 161
+The data type of data2 is  161
+H.layer1: 75 , H.layer1: 78
+k 5 lamda 0 , batch_size: 16 , alpha: 0 , learning_rate: 0.01847314570697207
+initializer:  xavier , optimizer: Momentum
+-------------------------------------------------------------------------------
+iteration 13
+first source ...
+second source ...
+features size of the 1st dataset: 152
+The data type of data1 is  <class 'int'>
+features size of the 2nd dataset: 152
+The data type of data2 is  152
+H.layer1: 47 , H.layer1: 140
+k 5 lamda 0 , batch_size: 4 , alpha: 0 , learning_rate: 0.21982340356530572
+initializer:  xavier , optimizer: RMSProp
+-------------------------------------------------------------------------------
+iteration 14
+first source ...
+second source ...
+features size of the 1st dataset: 125
+The data type of data1 is  <class 'int'>
+features size of the 2nd dataset: 125
+The data type of data2 is  125
+H.layer1: 2 , H.layer1: 64
+k 5 lamda 0 , batch_size: 8 , alpha: 0 , learning_rate: 0.03434793825826086
+initializer:  xavier , optimizer: Momentum
+-------------------------------------------------------------------------------
+iteration 15
+first source ...
+second source ...
+features size of the 1st dataset: 176
+The data type of data1 is  <class 'int'>
+features size of the 2nd dataset: 176
+The data type of data2 is  176
+H.layer1: 161 , H.layer1: 145
+k 5 lamda 0 , batch_size: 16 , alpha: 0.4349868633788778 , learning_rate: 0.014780436869023812
+initializer:  xavier , optimizer: SGD
+-------------------------------------------------------------------------------
+iteration 16
+first source ...
+second source ...
+features size of the 1st dataset: 264
+The data type of data1 is  <class 'int'>
+features size of the 2nd dataset: 264
+The data type of data2 is  264
+H.layer1: 47 , H.layer1: 47
+k 5 lamda 0 , batch_size: 8 , alpha: 0 , learning_rate: 0.2969586111830532
+initializer:  xavier , optimizer: adam
+-------------------------------------------------------------------------------
+iteration 17
+first source ...
+second source ...
+features size of the 1st dataset: 142
+The data type of data1 is  <class 'int'>
+features size of the 2nd dataset: 142
+The data type of data2 is  142
+H.layer1: 114 , H.layer1: 128
+k 5 lamda 0 , batch_size: 16 , alpha: 0.2621548347654752 , learning_rate: 0.007052178788593402
+initializer:  xavier , optimizer: nadam
+-------------------------------------------------------------------------------
+iteration 18
+first source ...
+second source ...
+features size of the 1st dataset: 222
+The data type of data1 is  <class 'int'>
+features size of the 2nd dataset: 222
+The data type of data2 is  222
+H.layer1: 203 , H.layer1: 31
+k 5 lamda 0.006126406025543845 , batch_size: 4 , alpha: 0.9775878429378309 , learning_rate: 0.1644238590206158
+initializer:  xavier , optimizer: SGD
+-------------------------------------------------------------------------------
+iteration 19
+first source ...
+second source ...
+features size of the 1st dataset: 355
+The data type of data1 is  <class 'int'>
+features size of the 2nd dataset: 355
+The data type of data2 is  355
+H.layer1: 332 , H.layer1: 242
+k 5 lamda 0 , batch_size: 16 , alpha: 0.9476274976172271 , learning_rate: 0.1087763104979977
+initializer:  xavier , optimizer: nadam
+-------------------------------------------------------------------------------
+iteration 20
+first source ...
+second source ...
+features size of the 1st dataset: 281
+The data type of data1 is  <class 'int'>
+features size of the 2nd dataset: 281
+The data type of data2 is  281
+H.layer1: 137 , H.layer1: 172
+k 5 lamda 0 , batch_size: 16 , alpha: 0.8921421016699373 , learning_rate: 0.18098365636433375
+initializer:  xavier , optimizer: Momentum
+
+Process finished with exit code 0

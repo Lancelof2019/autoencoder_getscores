@@ -1,0 +1,3 @@
+alpha:0,batch_size:0,initializer:0,lamda:0,learning_rate:0.3043595544796434,optimizer:0,units1:240,units2:78,---------------------------------------------tf.Tensor(1.1376253, shape=(), dtype=float32)
+alpha:0,batch_size:0,initializer:0,lamda:0,learning_rate:0.051914010670278725,optimizer:1,units1:116,units2:39,---------------------------------------------tf.Tensor(1.1862533, shape=(), dtype=float32)
+alpha:0,batch_size:0,initializer:0,lamda:0,learning_rate:0.023541925642454307,optimizer:0,units1:52,units2:85,---------------------------------------------tf.Tensor(1.3016591, shape=(), dtype=float32)

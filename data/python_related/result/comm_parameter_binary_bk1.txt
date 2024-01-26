@@ -1,0 +1,23 @@
+alpha:1,alpha2:0.3306139503616864,batch_size:2,initializer:0,lamda:0,learning_rate:0.03390252671807558,optimizer:3,units1:62,units2:269,0.2005167927152367
+alpha:1,alpha2:0.8047791311786754,batch_size:2,initializer:0,lamda:0,learning_rate:0.34706952491982357,optimizer:2,units1:57,units2:67,0.19365616495250368
+alpha:0,batch_size:2,initializer:0,lamda:0,learning_rate:0.008110991568174304,optimizer:3,units1:76,units2:52,0.24984641180884454
+alpha:0,batch_size:0,initializer:0,lamda:0,learning_rate:0.2709822839614979,optimizer:2,units1:145,units2:123,0.3315815505801991
+alpha:1,alpha2:0.21176296685217433,batch_size:1,initializer:0,lamda:0,learning_rate:0.028050141300118618,optimizer:3,units1:80,units2:88,0.2583836304244175
+alpha:0,batch_size:2,initializer:0,lamda:0,learning_rate:0.03131944960056182,optimizer:3,units1:116,units2:8,0.21214922349299156
+alpha:0,batch_size:2,initializer:0,lamda:0,learning_rate:0.04637421824814053,optimizer:2,units1:557,units2:225,0.5502985036501321
+alpha:1,alpha2:0.7209991272069494,batch_size:1,initializer:0,lamda:0,learning_rate:0.051394052649831025,optimizer:3,units1:130,units2:139,0.2587514096690763
+alpha:1,alpha2:0.8761186161958968,batch_size:2,initializer:0,lamda:0,learning_rate:0.19357431420333415,optimizer:2,units1:125,units2:47,0.2670312357205216
+alpha:0,batch_size:2,initializer:0,lamda:0,learning_rate:0.011365864513304905,optimizer:3,units1:161,units2:161,1.0979023646282893
+alpha:0,batch_size:0,initializer:0,lamda:0,learning_rate:0.007435285258497865,optimizer:1,units1:57,units2:217,0.1736343967658217
+alpha:0,batch_size:0,initializer:0,lamda:1,lamda2:0.0014686943891871129,learning_rate:0.009803136145356526,optimizer:1,units1:2,units2:1,0.7746228030932848
+alpha:1,alpha2:0.280695628469955,batch_size:0,initializer:0,lamda:0,learning_rate:0.0069381330657423,optimizer:1,units1:41,units2:71,0.25421171435104906
+alpha:0,batch_size:2,initializer:0,lamda:0,learning_rate:0.24133512386904904,optimizer:2,units1:148,units2:69,0.26412381984854255
+alpha:1,alpha2:0.26567743115268616,batch_size:0,initializer:0,lamda:0,learning_rate:0.0076414258967784305,optimizer:0,units1:36,units2:57,0.21870325970393356
+alpha:0,batch_size:2,initializer:0,lamda:1,lamda2:0.003319189994622499,learning_rate:0.35080907704002756,optimizer:3,units1:83,units2:128,0.237410059058538
+alpha:0,batch_size:2,initializer:0,lamda:0,learning_rate:0.0101696274269539,optimizer:3,units1:20,units2:109,0.26888270163407885
+alpha:0,batch_size:2,initializer:0,lamda:1,lamda2:0.015972058323072857,learning_rate:0.019342415046701266,optimizer:2,units1:14,units2:57,0.27750828045029796
+alpha:0,batch_size:1,initializer:0,lamda:0,learning_rate:0.021800785154723192,optimizer:4,units1:53,units2:11,0.17766654491424558
+alpha:1,alpha2:0.18023914389969886,batch_size:2,initializer:0,lamda:1,lamda2:0.0006893752094219745,learning_rate:0.015228751178322496,optimizer:3,units1:292,units2:304,0.2290655635697867
+alpha:1,alpha2:0.28862344644743054,batch_size:1,initializer:0,lamda:0,learning_rate:0.01948628913448074,optimizer:4,units1:29,units2:48,0.23418323807818914
+alpha:1,alpha2:0.6892753850191318,batch_size:2,initializer:0,lamda:0,learning_rate:0.19454722050012274,optimizer:0,units1:168,units2:2,tf.Tensor(1.01926, shape=(), dtype=float32)
+alpha:0,batch_size:0,initializer:0,lamda:0,learning_rate:0.0510046079483358,optimizer:4,units1:277,units2:31,tf.Tensor(0.8011291, shape=(), dtype=float32)

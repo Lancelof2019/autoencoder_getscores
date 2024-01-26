@@ -1,0 +1,6 @@
+alpha:0,batch_size:0,initializer:0,lamda:0,learning_rate:0.2295120243302506,optimizer:0,units1:0,units2:287,---------------------------------------------tf.Tensor(1.0808057, shape=(), dtype=float32)
+alpha:1,alpha2:0.6631666547744403,batch_size:0,initializer:0,lamda:0,learning_rate:0.24083525216588836,optimizer:1,units1:237,units2:99,---------------------------------------------tf.Tensor(1.1318985, shape=(), dtype=float32)
+alpha:0,batch_size:1,initializer:0,lamda:0,learning_rate:0.03641229072494984,optimizer:1,units1:202,units2:163,---------------------------------------------tf.Tensor(1.1395109, shape=(), dtype=float32)
+alpha:0,batch_size:0,initializer:0,lamda:0,learning_rate:0.2554518535699702,optimizer:0,units1:272,units2:247,---------------------------------------------tf.Tensor(1.1400851, shape=(), dtype=float32)
+alpha:0,batch_size:1,initializer:0,lamda:0,learning_rate:0.14625124045419907,optimizer:1,units1:69,units2:291,---------------------------------------------tf.Tensor(1.1394796, shape=(), dtype=float32)
+alpha:0,batch_size:1,initializer:0,lamda:1,lamda2:0.007837887487130626,learning_rate:0.02485971727601636,optimizer:3,units1:75,units2:73,---------------------------------------------tf.Tensor(52.01644, shape=(), dtype=float32)

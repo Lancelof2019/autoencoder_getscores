@@ -1,0 +1,15 @@
+{'state': 2, 'tid': 12, 'spec': None, 'result': 
+{'loss': 2276.049282094594, 
+'status': 'ok', 
+'params': {
+'alpha': 0, 
+'batch_size': 8, 
+'initializer':'xavier', 
+'lamda': 0.20448537816913717, 
+'learning_rate': 0.23880864894746043, 
+'optimizer': 'RMSProp', 
+'units1': 88, 
+'units2': 90}, 
+'loss_train': 3286.16629424224, 
+'history_loss': [8215.4157356056], 
+'history_val_loss': [5690.123205236486]}, 'misc': {'tid': 12, 'cmd': ('domain_attachment', 'FMinIter_Domain'), 'workdir': None, 'idxs': {'alpha': [12], 'alpha2': [], 'batch_size': [12], 'initializer': [12], 'lamda': [12], 'lamda2': [12], 'learning_rate': [12], 'optimizer': [12], 'units1': [12], 'units2': [12]}, 'vals': {'alpha': [0], 'alpha2': [], 'batch_size': [1], 'initializer': [0], 'lamda': [1], 'lamda2': [0.20448537816913717], 'learning_rate': [0.23880864894746043], 'optimizer': [4], 'units1': [87], 'units2': [89]}}, 'exp_key': None, 'owner': None, 'version': 0, 'book_time': datetime.datetime(2020, 11, 17, 5, 5, 46, 826000), 'refresh_time': datetime.datetime(2020, 11, 17, 5, 6, 6, 494000)}

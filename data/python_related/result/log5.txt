@@ -1,0 +1,634 @@
+C:\Apps\Python\python.exe C:\Users\gklizh\Documents\Workspace\code_and_data\code\autoencoder.py 
+(463, 4983)
+(463, 4983)
+iteration 0
+first source ...
+second source ...
+features size of the 1st dataset: 301
+features size of the 2nd dataset: 301
+shape of n_hidden1  301
+shape of n_hidden2  301
+2024-01-02 18:42:51.092467: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+--------------------- (370, 301) (370, 301) (93, 301) (93, 301) -------------------
+------Start trial----------------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+train_index
+(296,)
+val_index
+(74,)
+---------------TRain starts---------
+---------------End test----------
+100%|██████████| 20/20 [15:13:08<00:00, 2739.42s/trial, best loss: 0.4356074929237366]
+------------------Got the best value----------
+{'alpha': 0, 'batch_size': 0, 'initializer': 0, 'lamda': 0, 'learning_rate': 0.12291904952244118, 'optimizer': 4, 'units1': 191, 'units2': 97}
+-----------------------End output best------------
+------------test train starts--------------------
+-------------------end the train test-------------------------
+The loss value : tf.Tensor(0.8973386, shape=(), dtype=float32)
+-------------------end the loss display-------------------------
+-------------display best items----------------------
+dict_items([('alpha', 0), ('batch_size', 0), ('initializer', 0), ('lamda', 0), ('learning_rate', 0.12291904952244118), ('optimizer', 4), ('units1', 191), ('units2', 97)])
+-------------end best items----------------------
+-------------display best ----------------------
+{'alpha': 0, 'batch_size': 0, 'initializer': 0, 'lamda': 0, 'learning_rate': 0.12291904952244118, 'optimizer': 4, 'units1': 191, 'units2': 97}
+-------------end best ---------------------
+---------open the file to load the best items in best-----------------------------
+-------------Time count--------------------
+The total time it took is about 54828.18654539995 seconds
+-------------Time count--------------------
+
+Process finished with exit code 0

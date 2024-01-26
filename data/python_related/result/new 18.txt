@@ -1,0 +1,90 @@
+struct node {
+    node *pre = nullptr;
+    node *last = nullptr;
+    int value = 0;
+};
+
+struct node myNode;
+myNode.pre = NULL;
+myNode.last = NULL;
+myNode.value = 0;
+
+struct node {
+    struct node *pre;
+    struct node *last;
+    int value;
+};
+node *first = new node(); // 创建第一个节点
+first->value = 1;
+
+node *second = new node(); // 创建第二个节点
+second->value = 2;
+
+// 链接节点
+first->last = second;
+second->pre = first;
+
+struct node *first = (struct node *)malloc(sizeof(struct node)); // 创建第一个节点
+first->pre = NULL;
+first->last = NULL;
+first->value = 1;
+
+struct node *second = (struct node *)malloc(sizeof(struct node)); // 创建第二个节点
+second->pre = NULL;
+second->last = NULL;
+second->value = 2;
+
+// 链接节点
+first->last = second;
+second->pre = first;
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+struct node {
+    //struct node *pre;
+    struct node *last;
+    int value;
+};
+
+int main() {
+    // 分配内存并初始化三个节点
+    struct node *first = (struct node *)malloc(sizeof(struct node));
+    struct node *second = (struct node *)malloc(sizeof(struct node));
+    struct node *third = (struct node *)malloc(sizeof(struct node));
+
+    // 确保内存分配成功
+    if (first == NULL || second == NULL || third == NULL) {
+        printf("Memory allocation failed\n");
+        return 1; // 或适当处理错误
+    }
+
+    // 初始化节点
+   // first->pre = NULL;
+    first->last = second; // first 链接到 second
+    first->value = 1;
+
+   // second->pre = first; // second 链接到 first
+    second->last = third; // second 链接到 third
+    second->value = 2;
+
+   // third->pre = second; // third 链接到 second
+    third->last = NULL;
+    third->value = 3;
+
+    // 遍历链表
+    struct node *current = first;
+    while (current != NULL) {
+        printf("Node value: %d\n", current->value);
+        current = current->last;
+    }
+
+    // 清理分配的内存
+    free(first);
+    free(second);
+    free(third);
+
+    return 0;
+}

@@ -1,0 +1,1 @@
+alpha:1,alpha2:0.4642165575896121,batch_size:0,initializer:0,lamda:0,learning_rate:0.008881572252268745,optimizer:3,units1:66,units2:213,---------------------------------------------tf.Tensor(0.8119899, shape=(), dtype=float32)

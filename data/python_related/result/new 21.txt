@@ -1,0 +1,155 @@
+到了一点半，我们进入了审核教室，先拿着身份证去拍照，作为身份认证。后来办公人员（中国人）让我们签保密协议。先是同济帅哥被审核官叫去审核，第二位就到我了。我看了时间是下午一点五十，审核官问我用什么语言审核，我说用德语，审核官说"Sehr gut"，主审让我把包和衣服寄存起来，通信设备全部上交。审核官把我带进了小黑屋去做笔试题，我犯了失误，用“du”称呼了审核官，审核官提醒我用"Sie"，还好没酿成大错。笔试时间二十分钟，实际上我花了二十五分钟，因为等前一位同学审核结束我才可以进入审核教室。接着主审核官带我进入了审核教室。里面坐着俩人，左边是副审，负责记笔记，右边是主审，负责盘问我，两位都是德国老爷爷。主审笑着怼我，问了我一些专业课问题和一门基础课。
+
+笔试题目是一张纸，正面德语反面是英语的，我做的是德语那一面，做笔试题，一看题目是关于图论的，我勉强把dfs，生成树写出来，做了最后一道选择题。
+问了我数字逻辑，讲到补码。把我打断，问我计算机组成原理，问我学了什么，我扯一堆，主审打断我叫我说说指令寻址，我讲了立即寻址，直接寻址，寄存器间接寻址，寄存器相对寻址，主审打断，问我相对寻址和间接寻址的区别，我说有相对寻址多了偏移量Displacement，主审说没听懂，我说是Verschiebung，审核官露出了笑容，还问了我冯诺依曼体系和哈弗体系的区别，我说了冯诺依曼体系的特点，我说哈弗体系没学过，主审问我怎么不做Vergleich?我心想我没学过怎么作比较。接着问我软件测试。因为没有准备软测，导致软件测试没回答好，主审问我黑盒测试和白盒测试的区别，我讲黑盒测试不要专业知识，主审马上画了个图问我这怎么不要专业知识了？我说这门课只看视频，没有教材，主审又问我白盒测试。。我中文都说不清楚别说德语了。然后问我概率论，直接让我举例子，我说机器学习聚类Kmeans，方差校验用到了概率论，主审笑了。最后三分钟问我毕设，我还没展开叙述就草草结束。面谈时间过得好快，二十分钟就这么结束了。结束的时间是二点三十五。
+
+我看了主审老爷爷用荧光笔圈了我的几门课，都是我挂过的课和取得高分的课。
+
+2021年2月11日下午审核的总共四位同学，大家互相鼓励，我们都通过了。
+
+2021年2月14日，我在APS官网查到了结果
+
+
+
+5.结语
+
+后来我通过微信联系，同济和上交的帅哥们APS都过了，我们2.11下午这四位同学都是幸运儿。作为过来人，我觉得通过APS并不轻松，我集中准备了两个月，放养式复习三个月，当我走出APS教室，我的心情忐忑不安。因为我有一门专业课回答得不好，那门课是一门专业课，我们学校给我们视频和ppt，连教材都没有，主审问我关于这门课两个问题我没回答出来，审核官不满意我的回答。高中同学在教室外面等着我，我和他一起去肯德基吃午饭，因为他即将APS审核，我复述着审核细节，他拿着笔记录，同样都是毕业生，他学的电子电气工程（偏硬件）专业，我的经验对他来说有一定的借鉴意义。2.11到2.14号这三天我心情压抑，担心自己没有回答好，上班无精打采、玩游戏提不起兴趣，当2.14成绩出来的那一刻，所有的阴霾烟消云散。
+
+计算机专业德审资料在互联网上搜不到，英审资料倒是有一些；
+
+我不打算把我精心准备的资料作为商品售卖，我这一整套资料一个人卖个几十块钱很轻松，但是我觉得这么做很没意思，所以我想把资料共享出来，供后来者指明道路。
+
+本文以及我准备的课程复习材料难免有不足之处，欢迎各位指出
+
+模拟经历
+
+涉及个人隐私（成绩单详情、姓名、年龄等）的问题我不会泄露，经被模拟者同意，本着帮助更多的留德的同学的目的，模拟经历供后来者参考。
+
+同学A
+
+情况：专业是数字媒体技术，APS上海英审一审，往届毕业生。
+
+我准备的问题：
+
+Please make a brief introduction.
+Why are you going to Germany?
+How long have you been leraning german?
+Can you adapt to a new life in Germany?
+
+Please tell me about your graduation design.
+What have you learned about probability and statistics?
+What did you know about digital logic?
+What did you learn about principles of database system?
+What did you learn about video production and fusion?
+What is the difference between Java Programming and Asp.net Programming?
+What do you learn about game development?
+
+实际审核问到的问题：
+
+问了游戏开发，flash制作，
+
+怎么实现一个球动起来。笔试的游戏开发过程。
+
+视频剪辑怎么添加特效
+
+结果：通过
+
+
+同学B
+
+情况：专业是软件工程，APS上海英审一审，往届毕业生。
+
+我准备的问题：
+
+Please make a brief introduction.
+Why are you going to Germany?
+Can you adapt to a new life in Germany?
+Which University would you like to go?
+
+Please tell me about your graduation design.
+What is the difference between C language and Java language in your opinion.
+What did you learn about J2EE programming design?
+What did you learn about Algorithm & Data Structure? (Tree,Graph)
+What did you learn about Computer Network? (OSI Model and TCP Model)
+Show me some examples about Discrete Structure in professional field.
+
+实际问到的问题：
+
+软件测试白盒、黑盒、Vmodel、边界值分析、等价类划分、UML，毕业设计(一种自动化测试工具)，Socket Programming，UDP，webrtc framework
+
+结果：通过
+
+
+同学C
+
+情况：专业是软件工程，APS上海英审二审，应届毕业生。
+
+我准备的问题：
+
+Which University would you like to go?
+
+Please tell me about your graduation design.
+What is the difference between C++ language and Java language in your opinion.
+What did you learn about J2EE programming design?
+What did you learn about Algorithm & Data Structure?
+What did you learn about Computer Network? (OSI Model and TCP Model)
+Show me some examples about Linear Algebra in professional field.
+
+实际问到的问题：
+
+数据结构图的三种遍历方式的区别，描述栈和队列并说出区别，举出概率论与数理统计在编程中应用的例子，计算机网络三次握手协议，描述毕业设计。
+
+结果：通过
+
+
+同学D
+
+情况：专业是自动化，APS上海英审三审，应届毕业生。
+
+我准备的问题：
+
+Please make a brief introduction
+Why are you going to Germany?
+Which University would you like to go to?
+How much money do you prepare for Master's degreee?
+
+What have you learned about 'Modern Control Theory'?
+What did you learn about 'Advanced Programming Language A'
+What did you learn about 'Automatic Control Theory'
+
+'Programmable Logic Controller Application Technology'
+'Microcontroller Application Comprehensive Experiment'
+'Comprehensive Experiments of Motion Control Systems'
+
+Where does your major use physics education?
+Give me the example.
+
+Talk about your graduation design.
+
+实际问到的问题：
+
+未反馈
+
+结果：通过
+
+
+同学E
+
+情况：专业是物联网工程，APS上海一审英审，未毕业
+
+我准备的问题：
+
+What did you learn about 'Circuit Theory'
+What did you learn about 'Java Programming'
+What have you learned about 'Data Structure'
+What is differrent between linear list and linked list?
+
+What have you learned about 'Computer Networks'
+Tell me about 'Microcomputer Principle and Interface Technology'
+Tell me about 'loT Communication Technology'
+
+实际问到的问题：
+
+实验课里问了传感器和节点一样吗
+
+全部问得是大三下学期的课，需要和大三上学期的课程做联系。

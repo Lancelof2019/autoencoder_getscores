@@ -1,0 +1,57 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct node {
+    struct node *pre;
+    struct node *last;
+    int value;
+};
+
+int main() {
+    // 创建并初始化链表的三个节点
+    struct node *first = (struct node *)malloc(sizeof(struct node));
+    struct node *second = (struct node *)malloc(sizeof(struct node));
+    struct node *third = (struct node *)malloc(sizeof(struct node));
+
+    first->pre = NULL;
+    first->last = second;
+    first->value = 1;
+
+    second->pre = first;
+    second->last = third;
+    second->value = 2;
+
+    third->pre = second;
+    third->last = NULL;
+    third->value = 3;
+
+    // 插入操作
+    struct node *new_node = (struct node *)malloc(sizeof(struct node));
+    new_node->value = 4;
+    new_node->last = second->last;
+    new_node->pre = second;
+    second->last->pre = new_node;
+    second->last = new_node;
+
+    // 删除操作
+    struct node *temp = second->last;
+    second->last = temp->last;
+    temp->last->pre = second;
+    free(temp);
+
+    // 打印链表
+    struct node *current = first;
+    while (current != NULL) {
+        printf("Node value: %d\n", current->value);
+        current = current->last;
+    }
+
+    // 释放内存
+    while (first != NULL) {
+        struct node *temp = first;
+        first = first->last;
+        free(temp);
+    }
+
+    return 0;
+}
