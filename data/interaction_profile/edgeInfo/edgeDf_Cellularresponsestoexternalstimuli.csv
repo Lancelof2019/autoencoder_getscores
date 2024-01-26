@@ -1,0 +1,8 @@
+"source_symbol","target_symbol","source_id","target_id","Interactiontype","type","Source","Interationtype_processed"
+"MIR149","HSPA8","5786;4133","1534","inhibition","DATABASE","DATABASE","inhibition"
+"MIR92A2","TUBB2B","3928","4508","inhibition","DATABASE","DATABASE","inhibition"
+"MIR92A2","LIMD1","3928","1923","inhibition","DATABASE","DATABASE","inhibition"
+"MIR92A2","HSPA8","3928","1534","inhibition","DATABASE","DATABASE","inhibition"
+"MIR25","HSPA8","2221","1534","inhibition","DATABASE","DATABASE","inhibition"
+"MIRLET7B","HSPA8","1688","1534","inhibition","DATABASE","DATABASE","inhibition"
+"MIR338","HSPA8","721","1534","inhibition","DATABASE","DATABASE","inhibition"
